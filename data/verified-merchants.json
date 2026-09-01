@@ -1,0 +1,744 @@
+[
+ {
+  "url": "https://api.onesource.io/api/chain/nft-metadata",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:17Z",
+  "price_usdc": 0.008,
+  "payTo": "0x52E29e0d2Aa49bfBfC548C0A9F2196F4aa51f3ea",
+  "method": "GET",
+  "params_used": [
+   "contract",
+   "network",
+   "token_id"
+  ],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0xabf778383d210eee737e34ce26dd9eebae200a15398a4d800d9efb1aa2641c51",
+  "bytes": 671,
+  "sample": "{\"data\":{\"contract_address\":\"0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d\",\"token_id\":\"1\",\"token_uri\":\"ipfs://QmeSjSinHpPnmXmspMjwiXyN6zS4E9zccariGR3jxcaWtq/1\",\"resolved_url\":\"https:",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://base-gas-x402-production.up.railway.app/gas",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:18Z",
+  "price_usdc": 0.005,
+  "payTo": "0x0D083590c048A243e24a75E3a7C968145DE25B44",
+  "method": "GET",
+  "params_used": [
+   "gasLimit"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.shizu.me/crypto",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:19Z",
+  "price_usdc": 0.007,
+  "payTo": "0x217e5Fe265EB78b29067bF8324ef03a7D8e167C4",
+  "method": "GET",
+  "params_used": [
+   "pair"
+  ],
+  "paid_status": 402,
+  "error": "{\"x402Version\":1,\"error\":\"Payment required\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"7000\",\"resource\":\"https://x402.shizu.me/crypto?pair=BTC-USD\",\"descrip",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.ottoai.services/equity-news",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:20Z",
+  "price_usdc": 0.003,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [
+   "ticker"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.ottoai.services/kol-sentiment",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:21Z",
+  "price_usdc": 0.003,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://glim.sh/api/v1/inference/v1/chat/completions",
+  "challenge_status": 404,
+  "checked": "2026-08-31T23:28:22Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://x402.ottoai.services/crypto-news",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:22Z",
+  "price_usdc": 0.001,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://store.agentexchange.work/crypto/prices",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:23Z",
+  "price_usdc": 0.01,
+  "payTo": "0xc91cE6291eDC0713ec753BAFBA002506ffb2b95c",
+  "method": "GET",
+  "params_used": [
+   "coins"
+  ],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0xec4589104a6191ff0b31b0e0e639e24eeddb756a756e8ccf12fe5fa864f9e082",
+  "bytes": 1123,
+  "sample": "{\"asOf\":\"2026-08-31T23:28:24.324Z\",\"historical\":false,\"requested\":3,\"count\":3,\"prices\":[{\"query\":\"BTC\",\"key\":\"coingecko:bitcoin\",\"resolved\":true,\"symbol\":\"BTC\",\"price\":78548.646052",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://agent402.tools/api/crypto-price",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:25Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "GET",
+  "params_used": [
+   "coins",
+   "currency"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.shizu.me/weather",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:26Z",
+  "price_usdc": 0.004,
+  "payTo": "0x217e5Fe265EB78b29067bF8324ef03a7D8e167C4",
+  "method": "GET",
+  "params_used": [
+   "lat",
+   "lon"
+  ],
+  "paid_status": 402,
+  "error": "{\"x402Version\":1,\"error\":\"Payment required\",\"accepts\":[{\"scheme\":\"exact\",\"network\":\"base\",\"maxAmountRequired\":\"4000\",\"resource\":\"https://x402.shizu.me/weather?lat=52.52&lon=13.40\",",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://websearch.use.x402atlas.com/search",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:27Z",
+  "price_usdc": 0.01,
+  "payTo": "0xF752eEB75d3Bea24AA867ad93bfd8EF5a2F431B9",
+  "method": "GET",
+  "params_used": [
+   "chunks_per_source",
+   "query",
+   "search_depth"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This endpoint requires x402 payment. The price and payment options are in the PAYMENT-REQUIRED response header (x402 v2). Pay with an x402 clien",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://crypto.apitoll.cloud/v1/crypto/price",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:28Z",
+  "price_usdc": 0.001,
+  "payTo": "0x3dA40A9aD36640a2C0F533BAC368490095574664",
+  "method": "GET",
+  "params_used": [
+   "coins"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"message\":\"This endpoint requires an x402 micropayment (USDC on Base or Solana). $0.001 per call.\"}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.delx.ai/api/v1/x402/image",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:29Z",
+  "price_usdc": 0.01,
+  "payTo": "0x9f8bd9875b3E0b632a24A3A7C73f7787175e73A2",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0x30c4285a45a08b05434d7953eaeb824eb3f503ec63d7c388f33b4a6b2edd0bd4",
+  "bytes": 648,
+  "sample": "{\"generation_id\":\"9da27fd074b74f2981fca831f80997bb\",\"image_url\":\"https://api.delx.ai/api/v1/generated-images/5a4de7cfb90145ad89f4a69a25edac1e.webp\",\"model\":\"black-forest-labs/flux-",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://edgar.apitoll.cloud/v1/edgar/filings",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:34Z",
+  "price_usdc": 0.003,
+  "payTo": "0x58BdAD5e654691aC5eD4631758f3d8DA00666B6c",
+  "method": "GET",
+  "params_used": [
+   "ticker",
+   "form",
+   "limit"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"message\":\"This endpoint requires an x402 micropayment (USDC on Base or Solana). $0.003 per call.\",\"pricing\":{\"4\":\"$0.003\",\"10-K\":\"$0.003\",\"10-Q\":\"$0.00",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.deepnets.ai/api/social-research",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:35Z",
+  "verdict": "NO_BASE_OFFER"
+ },
+ {
+  "url": "https://agent402.tools/api/gas-snapshot",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:36Z",
+  "price_usdc": 0.005,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://coingecko.use.x402atlas.com/markets",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:36Z",
+  "price_usdc": 0.005,
+  "payTo": "0x32793F68dC2EA26BBC75eB900DA120069e8B6d02",
+  "method": "GET",
+  "params_used": [
+   "page",
+   "per_page",
+   "vs_currency"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This endpoint requires x402 payment. The price and payment options are in the PAYMENT-REQUIRED response header (x402 v2). Pay with an x402 clien",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.ottoai.services/tradfi-data",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:37Z",
+  "price_usdc": 0.003,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [
+   "symbol"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://polynews.news/api/v1/arbitrage",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:37Z",
+  "price_usdc": 0.01,
+  "payTo": "0x6ee49a7872844397Fb52870Cc07b308fFADC9427",
+  "method": "GET",
+  "params_used": [
+   "category",
+   "limit"
+  ],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0x7baffdc1dfed4f3e7563bf7fd0e3072d5db89602d27712e7dbc5561774748312",
+  "bytes": 314,
+  "sample": "{\"data\":{\"opportunities\":[],\"matchedMarkets\":22,\"totalPolymarkets\":128,\"totalKalshiMarkets\":11276,\"kalshiDataAgeSec\":269,\"polymarketDataAgeSec\":648,\"computedAt\":\"2026-08-31T23:28:3",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://api.agentstools.dev/search",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:40Z",
+  "price_usdc": 0.001,
+  "payTo": "0xF22e558a00D91Ee12A1F50C52186FecB8dDFf493",
+  "method": "GET",
+  "params_used": [
+   "query",
+   "max_results"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://vaaya.ai/api/run/modal/sandbox-exec",
+  "challenge_status": 200,
+  "checked": "2026-08-31T23:28:41Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://agent402.tools/api/llm",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:41Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://oracle.cyberwarex.com/contract",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:42Z",
+  "price_usdc": 0.01,
+  "payTo": "0x058D0Cc5CC97e61e8A9f38D6d6365bce525921B2",
+  "method": "GET",
+  "params_used": [
+   "address",
+   "chain"
+  ],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0x44e887040f249892c08aba08ae0a684da019eb96b0512183baf79ab9c590425c",
+  "bytes": 1068,
+  "sample": "{\"address\":\"0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913\",\"as_of_block\":50714788,\"chain\":\"base\",\"coverage\":\"Base simulation covers Aerodrome, Uniswap V3, Uniswap V2 and Uniswap V4 po",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://x402.ottoai.services/token-price",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:44Z",
+  "price_usdc": 0.001,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [
+   "token"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.ottoai.services/web-search",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:45Z",
+  "price_usdc": 0.009,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [
+   "query"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://agent402.tools/v1/embeddings",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:46Z",
+  "price_usdc": 0.002,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.ottoai.services/token-details",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:46Z",
+  "price_usdc": 0.001,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [
+   "symbol"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.nansen.ai/api/v1/chains/chain-rank",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:47Z",
+  "price_usdc": 0.01,
+  "payTo": "0x93053f1e7A5eFEDa532Fe69CbbE43cBEc3A0F13f",
+  "method": "GET",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{\"x402Version\":1,\"error\":\"invalid_x402_version\",\"accepts\":[],\"detail\":\"Nansen supports x402 V2 only. Upgrade your x402 client.\",\"docs\":\"https://docs.x402.org/guides/migration-v1-to",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.relaystation.ai/v1/pdf/ocr-searchable",
+  "challenge_status": 401,
+  "checked": "2026-08-31T23:28:47Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://agent402.tools/api/stock-quote",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:47Z",
+  "price_usdc": 0.001,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "GET",
+  "params_used": [
+   "symbol"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.glassnode.com/v1/metadata/metric",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:48Z",
+  "price_usdc": 0.01,
+  "payTo": "0x1f81da453901D15296c1710af83e0Bc0371D39f1",
+  "method": "GET",
+  "params_used": [
+   "path"
+  ],
+  "paid_status": 402,
+  "error": "null",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.relaystation.ai/v1/pdf/ocr",
+  "challenge_status": 401,
+  "checked": "2026-08-31T23:28:49Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://agent-commerce-factory-jm.austriaeast.cloudapp.azure.com/v1/crypto/prices",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:50Z",
+  "price_usdc": 0.008,
+  "payTo": "0xCe339395d7f2ea5a5009022EF1C392Fb208a989E",
+  "method": "GET",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{\"type\":\"https://paymentauth.org/problems/payment-required\",\"title\":\"Payment Required\",\"status\":402,\"detail\":\"Payment is required (Live cryptocurrency prices and market data \u2014 a to",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.relaystation.ai/v1/llm/sentiment",
+  "challenge_status": 401,
+  "checked": "2026-08-31T23:28:51Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://x402.outpimp.com/isEmail",
+  "challenge_status": 405,
+  "checked": "2026-08-31T23:28:51Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://api.relaystation.ai/v1/pdf/extract-text",
+  "challenge_status": 401,
+  "checked": "2026-08-31T23:28:51Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://api.relaystation.ai/v1/image/ocr",
+  "challenge_status": 401,
+  "checked": "2026-08-31T23:28:51Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://coingecko.use.x402atlas.com/price",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:51Z",
+  "price_usdc": 0.005,
+  "payTo": "0x32793F68dC2EA26BBC75eB900DA120069e8B6d02",
+  "method": "GET",
+  "params_used": [
+   "ids",
+   "vs_currencies"
+  ],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This endpoint requires x402 payment. The price and payment options are in the PAYMENT-REQUIRED response header (x402 v2). Pay with an x402 clien",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.delx.ai/api/v1/x402/dns-lookup",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:52Z",
+  "price_usdc": 0.01,
+  "payTo": "0x9f8bd9875b3E0b632a24A3A7C73f7787175e73A2",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0x99310b8ca3589173720c35cfb1d6e2938ee07e9618297ac1d3d12df411f2d2f7",
+  "bytes": 256,
+  "sample": "{\"tool_name\":\"util_dns_lookup\",\"result\":{\"domain\":\"example.com\",\"record_type\":\"A\",\"status\":0,\"answers\":[{\"name\":\"example.com.\",\"type\":1,\"ttl\":300,\"data\":\"172.66.147.243\"},{\"name\":\"",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://agent402.tools/api/embed-large",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:54Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://rubric-protocol.com/v1/x402/attested-verification",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:55Z",
+  "price_usdc": 0.005,
+  "payTo": "0xaB6731A0BcDf511c2842C768a03448075aB654ca",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0x3be20cf7411b8ddd017f278e2d3c29bf05bf5db017a7c0f06f15e19ea0c1cfbe",
+  "bytes": 12187,
+  "sample": "{\"success\":true,\"paid\":true,\"settled\":true,\"sealed\":true,\"subjectRef\":\"sha256:9f2c1a...\",\"method\":\"liveness\",\"result\":\"pass\",\"provider\":\"acme-idv\",\"eventId\":\"evt-01J9Z0X7QK\",\"event",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://bytemine.pay.zeroclick.io/functions/v1/api-gateway/fraud-check",
+  "challenge_status": 404,
+  "checked": "2026-08-31T23:28:57Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://x402.ottoai.services/pm-crypto",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:57Z",
+  "price_usdc": 0.001,
+  "payTo": "0x0E84dDEdAaE6A779c462C22a59F301EC31B6b808",
+  "method": "GET",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{\"error\":\"payment_required\",\"hint\":\"This is a pay-per-call x402 endpoint. The price and payment options (networks, signed offers) are in the PAYMENT-REQUIRED response header (x402 ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://dns-whois-lookup.underscoredone.com/lookup",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:58Z",
+  "price_usdc": 0.01,
+  "payTo": "0xE9740820225B3918b4ddd1292C7cA4Ca0e2C2F08",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://agentreader.dev/pdf",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:28:59Z",
+  "price_usdc": 0.01,
+  "payTo": "0x88096B3da9F45b8f923458E6CeF69FC0A5bE3CAe",
+  "method": "GET",
+  "params_used": [
+   "url"
+  ],
+  "paid_status": 402,
+  "error": "{\"preview\":true,\"note\":\"This is a free truncated sample. Pay the x402 requirements in the PAYMENT-REQUIRED header to get the full live result. Failed requests are never charged.\",\"",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://gateway.spraay.app/api/v1/prices",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:00Z",
+  "price_usdc": 0.005,
+  "payTo": "0xAd62f03C7514bb8c51f1eA70C2b75C37404695c8",
+  "method": "GET",
+  "params_used": [
+   "token"
+  ],
+  "paid_status": 402,
+  "error": "{\"x402Version\":2,\"error\":\"Payment required\",\"resource\":{\"url\":\"https://gateway.spraay.app/api/v1/prices?token=WETH\",\"description\":\"Live token prices.\",\"mimeType\":\"application/json\"",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.oblique.markets/api/v1/paid/summarize",
+  "challenge_status": 405,
+  "checked": "2026-08-31T23:29:01Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://netintel.dev/crypto/market",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:01Z",
+  "price_usdc": 0.005,
+  "payTo": "0xdaDc335482AD545296Fd7b28518A251fFCbEb9Df",
+  "method": "GET",
+  "params_used": [
+   "symbol"
+  ],
+  "paid_status": 402,
+  "error": "{\"x402Version\":2,\"error\":\"Payment required\",\"resource\":{\"url\":\"https://netintel.dev/crypto/market\",\"description\":\"Structured live crypto market data for ~50 top assets in one JSON ",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://quartermaster.surewhynot.app/v1/gas",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:02Z",
+  "price_usdc": 0.001,
+  "payTo": "0x5253666c40432f009ebd99908b9cd2a7fd1019cb",
+  "method": "GET",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.agentstools.dev/search/news",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:04Z",
+  "price_usdc": 0.003,
+  "payTo": "0xF22e558a00D91Ee12A1F50C52186FecB8dDFf493",
+  "method": "GET",
+  "params_used": [
+   "query",
+   "max_results",
+   "timelimit"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.fetchx402.com/v1/tools/dns",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:05Z",
+  "price_usdc": 0.005,
+  "payTo": "0x33236133BecE789D551d0B5c4f9A50095d4b57d3",
+  "method": "GET",
+  "params_used": [
+   "domain",
+   "type"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://agent402.tools/api/pdf",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:09Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.relaystation.ai/v1/pdf/images",
+  "challenge_status": 401,
+  "checked": "2026-08-31T23:29:10Z",
+  "verdict": "NO_CHALLENGE"
+ },
+ {
+  "url": "https://agent402.tools/api/image-ocr",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:10Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://rubric-protocol.com/v1/x402/attested-inference",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:11Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaB6731A0BcDf511c2842C768a03448075aB654ca",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 200,
+  "settled": true,
+  "tx": "0x57b534ad3c6665c79e151ee5b36766727ddbfdb777cf7758784e1a2c231c681d",
+  "bytes": 12919,
+  "sample": "{\"success\":true,\"paid\":true,\"settled\":true,\"completion\":{\"id\":\"chatcmpl-EJ5j7RgxNyPoKX15chg7wkfHaE2eP\",\"object\":\"chat.completion\",\"created\":1788218953,\"model\":\"gpt-4o-mini-2024-07-",
+  "verdict": "PAYS_OK"
+ },
+ {
+  "url": "https://domain-age-checker.underscoredone.com/lookup",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:14Z",
+  "price_usdc": 0.01,
+  "payTo": "0xE9740820225B3918b4ddd1292C7cA4Ca0e2C2F08",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://agent402.tools/api/solidity-scan",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:15Z",
+  "price_usdc": 0.01,
+  "payTo": "0xaBF4FAbd7c416fB67202E5f9002389Fc75e2a9D0",
+  "method": "POST",
+  "params_used": [],
+  "paid_status": 402,
+  "error": "{\"altPayment\":{\"protocol\":\"proof-of-work\",\"summary\":\"No wallet? This tool is also payable with a few ms of CPU: solve a sha256 puzzle instead - no money, no tokens.\",\"challengeUrl\"",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://x402.tradesnack.com/ta",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:16Z",
+  "price_usdc": 0.01,
+  "payTo": "0x081F8761f68e9387D339bdDaAa0C8Db5d3a72F5e",
+  "method": "GET",
+  "params_used": [
+   "symbol",
+   "tf"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://cryptyx.ai/api/ai/signals",
+  "challenge_status": 402,
+  "checked": "2026-08-31T23:29:17Z",
+  "price_usdc": 0.01,
+  "payTo": "0x0cD2c9724F185a029101b4AEACf3F114415c394f",
+  "method": "GET",
+  "params_used": [
+   "assets",
+   "events_days",
+   "min_conf_pct"
+  ],
+  "paid_status": 402,
+  "error": "{}",
+  "verdict": "PAY_FAILED_402"
+ },
+ {
+  "url": "https://api.aidress.ai/pay/agent_web_production_78e17_up_railway_app",
+  "challenge_status": 404,
+  "checked": "2026-08-31T23:29:17Z",
+  "verdict": "NO_CHALLENGE"
+ }
+]
