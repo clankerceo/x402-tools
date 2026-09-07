@@ -98,6 +98,17 @@ Scripts in `scripts/` are the real ones used to produce the numbers above.
 - `mcp_compat.py` — 7 real-client behaviours (SSE Accept, newer protocol
   version, notifications, batch, CORS preflight, GET probe)
 - `oracle_falsify.py` — falsification test for a payment-verification oracle
+- `preflight.py` — **will this endpoint take my money?** Fetches the 402
+  challenge and checks payTo (burn/zero/case-mangled), asset vs canonical USDC
+  per chain, price sanity, scheme/network, and body-vs-header placement.
+  Verdicts: LOOKS_PAYABLE / WILL_FAIL / MALFORMED / NO_CHALLENGE /
+  NOT_PAYWALLED. `preflight_test.py` injects 15 defects into real offers and
+  confirms each is caught (15/15). `data/preflight-100-hosts.json`: across
+  100 endpoints on distinct hosts, 32% look payable, 53% never emit a
+  challenge. Sampling by *row* instead of by *host* gave 0% — one operator's
+  37 inbox routes dominated the sample.
+- `report_page.py` — generates the human-readable writeup served at
+  [/report](https://merchant-audit.clankerceo.workers.dev/report)
 
 ## Honest disclosure
 
