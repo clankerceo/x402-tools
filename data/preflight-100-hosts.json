@@ -1,0 +1,1414 @@
+[
+ {
+  "url": "http://gg402.vercel.app/search",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://services.eruditepay.com/api/audit/deep",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno -2] Name or service not known>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "url": "https://lowpaymentfee.com/api/v1/inbox/160",
+  "method": "GET",
+  "challenge_source": "http 525",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 525"
+ },
+ {
+  "url": "https://api.aurelianflo.com/api/workflows/compliance/edd-report",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://bridge.eruditepay.com/api/base/wallet/first-tx",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://api.strale.io/x402/v2/credit-score-band",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.0216,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.021600 USDC"
+ },
+ {
+  "url": "https://x402.eruditepay.com/api/base/wallet/first-tx",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno -2] Name or service not known>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "url": "https://api.carbon-cashmere.de/v1/ai/assistant",
+  "method": "GET",
+  "challenge_source": "http 401",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 401"
+ },
+ {
+  "url": "https://httpay.xyz/api/agent-directory",
+  "method": "GET",
+  "challenge_source": "body",
+  "verdict": "MALFORMED",
+  "reason": "402 with no offers in `accepts`"
+ },
+ {
+  "url": "https://xactions.app/api/ai/scrape/profile",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 2,
+  "offer_audit": [
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.001,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.001,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 2 offers pass static checks; cheapest 0.001000 USDC"
+ },
+ {
+  "url": "https://wurkapi.fun/solana/agenttohuman",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.25,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.250000 USDC"
+ },
+ {
+  "url": "GET /api/dea",
+  "verdict": "ERROR",
+  "reason": "unknown url type: 'GET /api/dea'"
+ },
+ {
+  "url": "https://x402.quicknode.com/0g-galileo",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 21,
+  "offer_audit": [
+   {
+    "network": "eip155:84532",
+    "price_usdc": 1.0,
+    "problems": [
+     "unrecognised network 'eip155:84532'"
+    ]
+   },
+   {
+    "network": "eip155:84532",
+    "price_usdc": 0.001,
+    "problems": [
+     "unrecognised network 'eip155:84532'"
+    ]
+   },
+   {
+    "network": "eip155:84532",
+    "price_usdc": 0.0001,
+    "problems": [
+     "unrecognised network 'eip155:84532'"
+    ]
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 10.0,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.001,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.0001,
+    "problems": []
+   },
+   {
+    "network": "eip155:80002",
+    "price_usdc": 1.0,
+    "problems": [
+     "unrecognised network 'eip155:80002'"
+    ]
+   },
+   {
+    "network": "eip155:80002",
+    "price_usdc": 0.001,
+    "problems": [
+     "unrecognised network 'eip155:80002'"
+    ]
+   },
+   {
+    "network": "eip155:80002",
+    "price_usdc": 0.0001,
+    "problems": [
+     "unrecognised network 'eip155:80002'"
+    ]
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 10.0,
+    "problems": []
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.001,
+    "problems": []
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.0001,
+    "problems": []
+   },
+   {
+    "network": "eip155:196",
+    "price_usdc": 10.0,
+    "problems": [
+     "unrecognised network 'eip155:196'"
+    ]
+   },
+   {
+    "network": "eip155:196",
+    "price_usdc": 0.001,
+    "problems": [
+     "unrecognised network 'eip155:196'"
+    ]
+   },
+   {
+    "network": "eip155:1952",
+    "price_usdc": 1.0,
+    "problems": [
+     "unrecognised network 'eip155:1952'"
+    ]
+   },
+   {
+    "network": "eip155:1952",
+    "price_usdc": 0.001,
+    "problems": [
+     "unrecognised network 'eip155:1952'"
+    ]
+   },
+   {
+    "network": "eip155:5042002",
+    "price_usdc": 0.0001,
+    "problems": [
+     "unrecognised network 'eip155:5042002'"
+    ]
+   },
+   {
+    "network": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
+    "price_usdc": 1.0,
+    "problems": [
+     "unrecognised network 'solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1'"
+    ]
+   },
+   {
+    "network": "solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1",
+    "price_usdc": 0.001,
+    "problems": [
+     "unrecognised network 'solana:EtWTRABZaYq6iMfeYKouRu166VU2xqa1'"
+    ]
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 10.0,
+    "problems": []
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.001,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "8 of 21 offers pass static checks; cheapest 0.000100 USDC"
+ },
+ {
+  "url": "https://api.402.bot/upstreams/allium/v1/wallet/balances/probe",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert"
+ },
+ {
+  "url": "https://omni-oracle.omnioracle.workers.dev/alpha/market-regime",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://databr.api.br/v1/ambiental/desmatamento",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno 104] Connection reset by peer>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno 104] Connection reset by peer>"
+ },
+ {
+  "url": "https://verifik.x402.paysponge.com/v2/appointments",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 4,
+  "offer_audit": [
+   {
+    "network": "eip155:43114",
+    "price_usdc": 0.2,
+    "problems": [
+     "unrecognised network 'eip155:43114'"
+    ]
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.2,
+    "problems": []
+   },
+   {
+    "network": "eip155:196",
+    "price_usdc": 0.2,
+    "problems": [
+     "unrecognised network 'eip155:196'"
+    ]
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.2,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 4 offers pass static checks; cheapest 0.200000 USDC"
+ },
+ {
+  "url": "https://api.questflow.ai/x402/agent/qrn:agent:687df68ab234010b7d331717",
+  "method": "GET",
+  "challenge_source": "body",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "base",
+    "price_usdc": 0.1,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.100000 USDC"
+ },
+ {
+  "url": "https://stablecrypto.dev/api/defillama/protocols",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://mesh.heurist.xyz/x402/agents/AIXBTProjectInfoAgent/get_market_summary",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://x402.onchainexpat.com/api/x402-uncensored/chat",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://chainray.online/whale-alerts",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://emc2ai.io/x402/bitquery/arbitragescanner",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 3,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.6,
+    "problems": []
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.6,
+    "problems": []
+   },
+   {
+    "network": "lightning:mainnet",
+    "price_usdc": 0.000768,
+    "problems": [
+     "unrecognised network 'lightning:mainnet'",
+     "payTo is not a valid EVM address"
+    ]
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 3 offers pass static checks; cheapest 0.600000 USDC"
+ },
+ {
+  "url": "https://x402-gateway-production-1b84.up.railway.app/templates/100x-efficiency-content-specialist-2b053250/execute",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://stabletravel.dev/api/activities/by-square",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://api.syraa.fun/brain",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 5,
+  "offer_audit": [
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.08,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.08,
+    "problems": []
+   },
+   {
+    "network": "eip155:56",
+    "price_usdc": 80000000000.0,
+    "problems": [
+     "unrecognised network 'eip155:56'",
+     "price is 80000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8=",
+    "price_usdc": 0.08,
+    "problems": [
+     "unrecognised network 'algorand:wGHE2Pwdvd7S12BL5FaOP20EGYesN73ktiC1qzkkit8='",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "eip155:196",
+    "price_usdc": 0.08,
+    "problems": [
+     "unrecognised network 'eip155:196'"
+    ]
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 5 offers pass static checks; cheapest 0.080000 USDC"
+ },
+ {
+  "url": "https://api.dirtroad.dev/tools/paid/camel-to-snake",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno -5] No address associated with hostnam",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno -5] No address associated with hostnam"
+ },
+ {
+  "url": "https://api.loyalspark.online/x402-gateway/accept-offer",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://api.quantoracle.dev/v1/stats/zscore",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://agents.krumpybot.com/sec/company",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://coinrailz.com",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://api.the402.ai/v1/discover",
+  "method": "GET",
+  "challenge_source": "http 503",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 503"
+ },
+ {
+  "url": "https://x402.cambrian.org/deep42/social-data/alpha-tweet-detection",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.05,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.050000 USDC"
+ },
+ {
+  "url": "https://mpp.hyreagent.fun/ask",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://agent.metengine.xyz/api/v1/hl/coins/list",
+  "method": "GET",
+  "challenge_source": "http 502",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 502"
+ },
+ {
+  "url": "https://archtools.dev/v1/tools/ai-generate",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 4,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.04,
+    "problems": []
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.04,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.04,
+    "problems": [
+     "asset 0xfde4C96c85\u2026 is not USDC on eip155:8453"
+    ]
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.04,
+    "problems": [
+     "asset 0xc2132D05D3\u2026 is not USDC on eip155:137"
+    ]
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 4 offers pass static checks; cheapest 0.040000 USDC"
+ },
+ {
+  "url": "https://api.xona-agent.com/image/creative-director",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://globalapi.dev/au/cpi",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://obolos.tech/api/proxy/agent-directory-search",
+  "method": "GET",
+  "challenge_source": "http 500",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 500"
+ },
+ {
+  "url": "https://api.sys84.org/v1/services/wallet_risk_snapshot",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://x402.api.agentmail.to/v0/domains",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 5,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.0,
+    "problems": [
+     "price is zero or negative"
+    ]
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.0,
+    "problems": [
+     "price is zero or negative"
+    ]
+   },
+   {
+    "network": "eip155:43114",
+    "price_usdc": 0.0,
+    "problems": [
+     "unrecognised network 'eip155:43114'",
+     "price is zero or negative"
+    ]
+   },
+   {
+    "network": "eip155:196",
+    "price_usdc": 0.0,
+    "problems": [
+     "unrecognised network 'eip155:196'",
+     "price is zero or negative"
+    ]
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.0,
+    "problems": [
+     "price is zero or negative"
+    ]
+   }
+  ],
+  "verdict": "WILL_FAIL",
+  "reason": "price is zero or negative"
+ },
+ {
+  "url": "https://padelmaps.org/api/x402/countries",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://api.messari.io/ai/v2/chat/completions",
+  "method": "GET",
+  "challenge_source": "http 403",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 403"
+ },
+ {
+  "url": "https://alpha.snipersearch.fun/alpha/filter",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://x402.fiasignals.com/acp-direct/guarded-swap-execute-dry-run",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://stablesocial.dev/api/facebook/comment-replies",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://convrgent.ai/api/kyh/natal-chart",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://stableenrich.dev/api/whitepages/property-search",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://api.engrave-protocol.ai/api/v1/mempool/address",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occur"
+ },
+ {
+  "url": "https://launch.402rush.fun/mint/0x09b3712d458e8affd871f0b209ccf3dcbf2f0e1e",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://api.yieldagentx402.app/api/yields",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 20,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.01,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 10000000.0,
+    "problems": [
+     "asset 0x0000000000\u2026 is not USDC on eip155:8453",
+     "price is 10000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "eip155:56",
+    "price_usdc": 1000000000000.0,
+    "problems": [
+     "unrecognised network 'eip155:56'",
+     "price is 1000000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "starknet:mainnet",
+    "price_usdc": 1000000000.0,
+    "problems": [
+     "unrecognised network 'starknet:mainnet'",
+     "payTo is not a valid EVM address",
+     "price is 1000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "starknet:mainnet",
+    "price_usdc": 500000000000.0,
+    "problems": [
+     "unrecognised network 'starknet:mainnet'",
+     "payTo is not a valid EVM address",
+     "price is 500000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "sui:mainnet",
+    "price_usdc": 10.0,
+    "problems": [
+     "unrecognised network 'sui:mainnet'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "tron:mainnet",
+    "price_usdc": 0.01,
+    "problems": [
+     "unrecognised network 'tron:mainnet'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "solana:mainnet",
+    "price_usdc": 0.01,
+    "problems": [
+     "unrecognised network 'solana:mainnet'"
+    ]
+   },
+   {
+    "network": "near:mainnet",
+    "price_usdc": null,
+    "problems": [
+     "unrecognised network 'near:mainnet'",
+     "payTo is not a valid EVM address",
+     "maxAmountRequired '0.01' is not an integer"
+    ]
+   },
+   {
+    "network": "stacks:mainnet",
+    "price_usdc": 0.01,
+    "problems": [
+     "unrecognised network 'stacks:mainnet'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "eip155:1",
+    "price_usdc": 0.01,
+    "problems": [
+     "unrecognised network 'eip155:1'"
+    ]
+   },
+   {
+    "network": "xrpl:0",
+    "price_usdc": 0.1,
+    "problems": [
+     "unrecognised network 'xrpl:0'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "filecoin:mainnet",
+    "price_usdc": 1000000000000.0,
+    "problems": [
+     "unrecognised network 'filecoin:mainnet'",
+     "payTo is not a valid EVM address",
+     "price is 1000000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "eip155:314",
+    "price_usdc": 10000000000.0,
+    "problems": [
+     "unrecognised network 'eip155:314'",
+     "price is 10000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "eip155:30",
+    "price_usdc": 1000000000000.0,
+    "problems": [
+     "unrecognised network 'eip155:30'",
+     "price is 1000000000000.00 USDC \u2014 implausibly high"
+    ]
+   },
+   {
+    "network": "ton:-239",
+    "price_usdc": 100.0,
+    "problems": [
+     "unrecognised network 'ton:-239'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "aptos:1",
+    "price_usdc": 0.1,
+    "problems": [
+     "unrecognised network 'aptos:1'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "algorand:mainnet",
+    "price_usdc": 0.001,
+    "problems": [
+     "unrecognised network 'algorand:mainnet'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "bip122:000000000019d6689c085ae165831e93",
+    "price_usdc": 0.01,
+    "problems": [
+     "unrecognised network 'bip122:000000000019d6689c085ae165831e93'",
+     "payTo is not a valid EVM address"
+    ]
+   },
+   {
+    "network": "stellar:pubnet",
+    "price_usdc": 10.0,
+    "problems": [
+     "unrecognised network 'stellar:pubnet'",
+     "payTo is not a valid EVM address"
+    ]
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 20 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://stablestudio.dev/api/generate/sora-2/generate",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://api.aitoollab.top/api/crypto/trending",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.01,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://web-production-1a6e.up.railway.app/article",
+  "method": "GET",
+  "challenge_source": "body",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "base",
+    "price_usdc": 0.01,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://agntos.dev/chat",
+  "method": "GET",
+  "challenge_source": "http 522",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 522"
+ },
+ {
+  "url": "https://api.auor.io/all-rates-today/v1/historical",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.001,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.001000 USDC"
+ },
+ {
+  "url": "https://torify.dev/v1/address/normalize",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error timed out>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error timed out>"
+ },
+ {
+  "url": "https://global-econ-x402-production.up.railway.app/ca/company/4261607",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://socialx402.com/api/facebook/comment-replies",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://api.vibe.airforce/api/x402/alpha/top-picks",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 2,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.5,
+    "problems": []
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.5,
+    "problems": [
+     "payTo is not a valid Solana address"
+    ]
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 2 offers pass static checks; cheapest 0.500000 USDC"
+ },
+ {
+  "url": "https://miva-x402.vercel.app/ask",
+  "method": "GET",
+  "challenge_source": "body",
+  "verdict": "MALFORMED",
+  "reason": "402 with no offers in `accepts`"
+ },
+ {
+  "url": "https://mpp.myntagent.fun/ask",
+  "method": "GET",
+  "challenge_source": "body",
+  "verdict": "MALFORMED",
+  "reason": "402 with no offers in `accepts`"
+ },
+ {
+  "url": "https://x402.silverbackdefi.app/api/v1/arbitrage-scanner",
+  "method": "GET",
+  "challenge_source": "http 503",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 503"
+ },
+ {
+  "url": "https://agents.memeputer.com//x402/solana/trendputer",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno -2] Name or service not known>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "url": "https://data.eruditepay.com/api/v1/crypto/coinpaprika",
+  "method": "GET",
+  "challenge_source": "http 526",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 526"
+ },
+ {
+  "url": "https://server.agentneo.pro/v1/public/activities",
+  "method": "GET",
+  "challenge_source": "http 521",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 521"
+ },
+ {
+  "url": "https://x402.fuchss.app/v1/x402-trust",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://stabledesign.vercel.app/api/brand-templates/list",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://api.zeroreader.com",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://orionkr.xyz/v1/rhc-pulse/single",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://defi.hugen.tokyo/defi/address",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 2,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.01,
+    "problems": []
+   },
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.01,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 2 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://market.dexfra.fun/v1/public/chart/token",
+  "method": "GET",
+  "challenge_source": "http 521",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 521"
+ },
+ {
+  "url": "https://war-tracker.com/api/v1/events",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 7,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.006,
+    "problems": []
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.006,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.006,
+    "problems": []
+   },
+   {
+    "network": "eip155:137",
+    "price_usdc": 0.006,
+    "problems": []
+   },
+   {
+    "network": "eip155:43114",
+    "price_usdc": 0.006,
+    "problems": [
+     "unrecognised network 'eip155:43114'"
+    ]
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "6 of 7 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://api.slamai.dev/chain/tokens/newest",
+  "method": "GET",
+  "challenge_source": "body",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "base",
+    "price_usdc": 0.001585,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.001585 USDC"
+ },
+ {
+  "url": "https://www.x402scan.com/api/x402/facilitators",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.01,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://slamai.dev/chain/transfers",
+  "method": "GET",
+  "challenge_source": "http 502",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 502"
+ },
+ {
+  "url": "https://api.deepbluebase.xyz/btc/realtime-signal",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error timed out>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error timed out>"
+ },
+ {
+  "url": "https://x402-ai-gateway.onrender.com",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://xbirdapi.up.railway.app/api/accounts",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://api.venice.ai/api/v1/audio/complete",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://stableemail.dev/api/inbox/buy",
+  "method": "GET",
+  "challenge_source": "http 405",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 405"
+ },
+ {
+  "url": "https://x402.twit.sh/users/by/username",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.005,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.005000 USDC"
+ },
+ {
+  "url": "https://web-production-18a32.up.railway.app",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://x402-agent-suite-production.up.railway.app/api/agent-escrow",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://agoragentic.com/api/x402/invoke/0e253733-5fa2-4856-9a84-26092e47b550",
+  "method": "GET",
+  "challenge_source": "http 503",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 503"
+ },
+ {
+  "url": "https://x402-finance-api.vercel.app/broker/audit",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://x402.slinkylayer.ai/api/v1/proxy/00e31e91-413d-43f0-833d-56e6b6789aab/content-detect-spam",
+  "method": "GET",
+  "challenge_source": "http 400",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 400"
+ },
+ {
+  "url": "https://stableproduct.dev/api/channel3/brands/detail",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.01,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://x402.serendb.com/api/proxy/alpaca",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate ",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate "
+ },
+ {
+  "url": "https://api.autonomagic.org/api/b2b-profile",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://express-legacy-production.up.railway.app/crypto/btc-equity-correlation/insight",
+  "method": "GET",
+  "challenge_source": "http 404",
+  "verdict": "NO_CHALLENGE",
+  "reason": "http 404"
+ },
+ {
+  "url": "https://x402.dexter.cash/api/jupiter/quote",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 2,
+  "offer_audit": [
+   {
+    "network": "solana:5eykt4UsFv8P8NJdTREpY1vzqKqZKvdp",
+    "price_usdc": 0.05,
+    "problems": []
+   },
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.05,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 2 offers pass static checks; cheapest 0.050000 USDC"
+ },
+ {
+  "url": "https://gateway.grapevine.fyi/x402/cid/bafkreia6nujebdr2tyzvc4ayvtpi5az5dgrtd3scdvf3ehuepa4b2d3hpa",
+  "method": "GET",
+  "challenge_source": "body",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "base",
+    "price_usdc": 0.01,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.010000 USDC"
+ },
+ {
+  "url": "https://locally-merit-nest-specific.trycloudflare.com/api/b2b-profile",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno -2] Name or service not known>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno -2] Name or service not known>"
+ },
+ {
+  "url": "https://x402factory.ai/base/ata",
+  "method": "GET",
+  "challenge_source": "body",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "base",
+    "price_usdc": 0.4,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.400000 USDC"
+ },
+ {
+  "url": "https://api.kasanegi.com",
+  "method": "GET",
+  "challenge_source": "no-challenge (200)",
+  "verdict": "NOT_PAYWALLED",
+  "reason": "returned 200 without a payment challenge"
+ },
+ {
+  "url": "https://pay.lnpay.ai//twitter/user/batch-info",
+  "method": "GET",
+  "challenge_source": "body",
+  "offers": 2,
+  "offer_audit": [
+   {
+    "network": "base",
+    "price_usdc": 0.0018,
+    "problems": []
+   },
+   {
+    "network": "solana",
+    "price_usdc": 0.0018,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "2 of 2 offers pass static checks; cheapest 0.001800 USDC"
+ },
+ {
+  "url": "https://likelihoods.io/api/tools/macro/briefing",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error timed out>",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error timed out>"
+ },
+ {
+  "url": "https://apolloai.team/api/agent-intel",
+  "method": "GET",
+  "challenge_source": "unreachable: <urlopen error [Errno -5] No address associated with hostnam",
+  "verdict": "NO_CHALLENGE",
+  "reason": "unreachable: <urlopen error [Errno -5] No address associated with hostnam"
+ },
+ {
+  "url": "https://nexus-agent-xa12.onrender.com/aggregate",
+  "method": "GET",
+  "challenge_source": "header",
+  "offers": 1,
+  "offer_audit": [
+   {
+    "network": "eip155:8453",
+    "price_usdc": 0.15,
+    "problems": []
+   }
+  ],
+  "verdict": "LOOKS_PAYABLE",
+  "reason": "1 of 1 offers pass static checks; cheapest 0.150000 USDC"
+ }
+]
